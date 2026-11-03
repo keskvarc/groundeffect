@@ -1,0 +1,11 @@
+{
+  "source_package": "/absolute/path/to/physical/scenery/package",
+  "dsf": "Earth nav data/+30-080/+35-079.dsf",
+  "imagery_raster": "/absolute/path/to/prepared-naip-z14.tif",
+  "osm_db": "/absolute/path/to/normalized/osm.sqlite",
+  "viirs": "/absolute/path/to/viirs.tiles",
+  "source_label": "USDA NAIP 2022 RGB, z14 sampling, 1024px preview; replace with actual provenance",
+  "size": 1024,
+  "exposure": 0.35,
+  "budget_mib": 2048
+}

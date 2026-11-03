@@ -1,0 +1,11 @@
+{
+  "source_package": "",
+  "mount_point": "/home/YOUR_USER/.local/share/groundeffect/reader",
+  "osm_db": "/path/to/X-Plane 12/Global Scenery/X-Plane 12 Global Scenery",
+  "viirs": null,
+  "provider": "bing",
+  "source_revision": "bing-2026-v1",
+  "size": 1024,
+  "exposure": 0.65,
+  "budget_mib": 16384
+}

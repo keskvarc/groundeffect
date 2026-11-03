@@ -1,0 +1,20 @@
+[package]
+name = "groundeffect-engine"
+version = "0.1.0-alpha.1"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+flate2 = "1"
+fs2 = "0.4"
+fuser = { version = "0.16", default-features = false, features = ["abi-7-31"] }
+gdal = { version = "0.18", features = ["bindgen"] }
+libc = "0.2"
+md-5 = "0.10"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+texpresso = "2"
+uuid = { version = "1", features = ["v4"] }
+tempfile = "3"

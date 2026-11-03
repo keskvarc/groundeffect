@@ -1,0 +1,7 @@
+/target/
+/bin/
+/.local/
+/.work/
+/result
+*.tmp
+__pycache__/
